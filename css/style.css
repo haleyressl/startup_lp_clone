@@ -451,6 +451,7 @@ div {
 }
 .top-navigation .logo {
   height: 4.375rem;
+  margin-left: 14px;
 }
 .top-navigation .links li {
   display: inline-block;
