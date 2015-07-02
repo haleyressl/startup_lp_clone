@@ -443,6 +443,12 @@ body {
 
 }
 
+.content {
+  padding: 0px 0.938rem;
+  margin: 0px auto;
+  min-width: 37.5rem;
+}
+
 /* Navigation Section */
 .top-navigation {
     background-color: #fff;
@@ -481,12 +487,46 @@ body {
 
 /*BG image*/
 .introduction {
+    text-align: center;
     background-image: url('../images/first-background.jpg');
     background-position: 50% 100%;
     background-repeat: no-repeat;
     background-size: cover;
     height: 45.938rem;
     overflow: auto;
+}
+.introduction h1 {
+  color: white;
+  font-weight: 300;
+  margin: 17.5rem 0 0 0;
+  font-size: 3.125rem;
+}
+.introduction h3 {
+  color: white;
+  font-weight: 300;
+  margin-top: 1.25rem;
+  font-size: 1.563rem;
+}
+.introduction .buttons {
+  color:white;
+  text-align: center;
+  margin-top:1.563rem;
+}
+button {
+  width: 9.688rem;
+  background-color: rgb(241, 90, 41);
+  border-color: rgb(241, 90, 41);
+  text-shadow: none;
+  border-style: none;
+  border-radius: 4px;
+  padding: 1rem 1.5rem;
+  color: white;
+  font-size: 1.125rem;
+}
+button:hover {
+  background-color: rgb(217, 64, 14);
+  border-color: rgb(207, 61, 14);
+  cursor: pointer;
 }
 
 
