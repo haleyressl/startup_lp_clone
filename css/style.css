@@ -479,5 +479,15 @@ body {
   color: #333333;
 }
 
+/*BG image*/
+.introduction {
+    background-image: url('../images/first-background.jpg');
+    background-position: 50% 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 45.938rem;
+    overflow: auto;
+}
+
 
 
